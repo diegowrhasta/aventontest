@@ -1,0 +1,25 @@
+.color{
+    background-color: #44ab6c;
+  }
+  .inputcolor{
+    border-radius: 90px 90px 90px 90px;
+    -moz-border-radius: 90px 90px 90px 90px;
+    -webkit-border-radius: 90px 90px 90px 90px;
+    border: 0px solid #146b21;
+  }
+  .imagen{
+    background: url('../assets/splash.png') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+  }
+  .roundImage {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:10px solid #666;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

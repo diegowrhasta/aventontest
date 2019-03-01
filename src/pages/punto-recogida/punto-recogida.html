@@ -1,0 +1,23 @@
+<ion-header>
+
+    <ion-toolbar color="yellow">
+        <ion-title>Seleccione un punto de recogida</ion-title>
+    </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content class="imagen">
+    <div id="maparuta"></div>
+    <div id="map"></div>
+    <div>
+            <button ion-button color="yellow" round (click)="posicion()" block>IR A MI POSICION</button>
+        </div>
+    <div>
+        <button ion-button color="yellow" round (click)="aceptar()" block>ACEPTAR</button>
+    </div>
+    <ion-fab right bottom>
+            <button ion-fab  (click)="slidePrincipal3()" ><ion-icon ></ion-icon>Ayuda</button>
+          
+        </ion-fab>
+</ion-content>  
